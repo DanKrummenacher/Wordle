@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.controls button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+  background-color: #6aaa64;
+  color: white;
+  transition: background-color 0.1s ease;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}

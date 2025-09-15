@@ -1,0 +1,17 @@
+<main>
+  <h1>Angular Wordle</h1>
+
+  @if (gameState$ | async; as state) {
+    <app-game [guesses]="state.guesses" [currentGuess]="state.currentGuess"></app-game>
+
+    @if (state.message) {
+      <p class="message">{{ state.message }}</p>
+    }
+
+    @if (state.isGameOver) {
+      <div class="controls">
+        <button (click)="restartGame()">Erneut Spielen!</button>
+      </div>
+    }
+  }
+</main>
