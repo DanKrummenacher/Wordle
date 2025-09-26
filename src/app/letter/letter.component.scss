@@ -1,0 +1,32 @@
+.letter-tile {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 2px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+}
+
+.correct {
+  background-color: #6aaa64;
+  border-color: #6aaa64;
+  color: #fff;
+}
+
+.present {
+  background-color: #c9b458;
+  border-color: #c9b458;
+  color: #fff;
+}
+
+.absent {
+  background-color: #e6e6e6;
+  border-color: #787c7e;
+  color: #787c7e;
+}

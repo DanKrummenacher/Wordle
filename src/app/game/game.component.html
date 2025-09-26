@@ -1,0 +1,5 @@
+<div class="game-board">
+  @for (row of allRows; track $index) {
+    <app-row [guess]="row"></app-row>
+  }
+</div>
